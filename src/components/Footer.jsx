@@ -16,7 +16,7 @@ const Footer = () => {
                 <img className='h-8' src={facebook} alt="facebook" />
                 <img className='h-6' src={xLogo} alt="x" />
             </div>
-            <p className='pl-5 text-sm pr-5 font-normal pb-10 text-center'>Designed by SLC Site Sculptors©️</p>
+            <p className='pl-5 text-sm pr-5 font-normal pb- text-center'>Designed by SLC Site Sculptors©️</p>
         </div>
     )
 }
