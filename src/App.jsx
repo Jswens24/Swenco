@@ -21,6 +21,10 @@ function App() {
       <Gallery />
       <Quote />
       <Footer />
+      <div onClick={() => {
+        const anchor = document.querySelector('#home')
+        anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      }} className='cursor-pointer w-fit p-1 pl-3 pr-3 rounded-full border-black border-2 fixed bottom-1 right-1'>↑</div>
     </>
   )
 }
