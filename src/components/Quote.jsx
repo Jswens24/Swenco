@@ -9,7 +9,7 @@ const Quote = () => {
 
                 <input type="hidden" name="_subject" value="[SWENCO] Quote Request!" />
                 <input type="hidden" name="_autoresponse" value="Thank you for reaching out, we will get back with you shortly." />
-                <input type="hidden" name="_next" value="https://localhost:5173" />
+                <input type="hidden" name="_next" value="https://swenco.construction" />
 
                 <div className='flex flex-col items-center '>
                     <input className='rounded border border-black p-3 m-5 w-full' name='name' type="text" placeholder='Name (required)' required />
