@@ -18,7 +18,7 @@ function App() {
       <Services />
       <Vision />
       <ChooseUs />
-      <Gallery />
+      {/* <Gallery /> */}
       <Quote />
       <Footer />
       <div onClick={() => {
